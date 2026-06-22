@@ -31,7 +31,7 @@ export default function Demo() {
             <div className="w-7 h-7 bg-teal-700 rounded-lg flex items-center justify-center">
               <Stethoscope className="w-4 h-4 text-white" />
             </div>
-            <span className="font-bold text-teal-800 text-sm">Assist'Infirmière IA</span>
+            <span className="font-bold text-teal-800 text-sm">Assist&apos;Infirmière IA</span>
           </div>
         </div>
       </nav>
@@ -41,7 +41,7 @@ export default function Demo() {
           <div className="inline-flex items-center gap-2 bg-teal-100 text-teal-700 rounded-full px-4 py-1.5 text-sm font-medium mb-4">
             <Play className="w-4 h-4" /> Démonstration interactive
           </div>
-          <h1 className="text-2xl font-bold text-slate-800 mb-2">Voyez l'assistant en action</h1>
+          <h1 className="text-2xl font-bold text-slate-800 mb-2">Voyez l&apos;assistant en action</h1>
           <p className="text-slate-500">Simulez un appel reçu pendant que vous êtes en soin</p>
         </div>
 
@@ -52,7 +52,7 @@ export default function Demo() {
             </div>
             <h2 className="text-xl font-bold text-slate-800 mb-3">Scénario</h2>
             <p className="text-slate-600 mb-6 max-w-md mx-auto">
-              Vous êtes en soin chez un patient. Marie Dupont appelle pour modifier un rendez-vous. L'assistant prend l'appel à votre place.
+              Vous êtes en soin chez un patient. Marie Dupont appelle pour modifier un rendez-vous. L'assistant prend l&apos;appel à votre place.
             </p>
             <button onClick={() => setStep(1)}
               className="bg-teal-700 text-white px-8 py-3 rounded-xl font-semibold hover:bg-teal-800 transition-colors flex items-center gap-2 mx-auto">
@@ -68,10 +68,10 @@ export default function Demo() {
             </div>
             <div className="text-slate-400 text-sm mb-2">Appel entrant</div>
             <div className="text-2xl font-bold text-slate-800 mb-1">0470 00 00 00</div>
-            <div className="text-slate-500 mb-8">Vous êtes en soin — l'assistant répond automatiquement</div>
+            <div className="text-slate-500 mb-8">Vous êtes en soin — l&apos;assistant répond automatiquement</div>
             <button onClick={() => setStep(2)}
               className="bg-teal-700 text-white px-6 py-3 rounded-xl font-semibold hover:bg-teal-800 transition-colors">
-              ▶ L'assistant décroche et prend le message...
+              ▶ L&apos;assistant décroche et prend le message...
             </button>
           </div>
         )}
@@ -94,13 +94,13 @@ export default function Demo() {
               <div className="flex gap-3">
                 <div className="w-6 h-6 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold text-teal-700">A</div>
                 <div className="bg-teal-50 rounded-xl rounded-tl-none p-3 text-teal-800 flex-1">
-                  "Bonjour, vous êtes bien sur l'assistant de Marie Defays, infirmière indépendante. Je vais prendre votre message. En cas d'urgence vitale, appelez le 112. Quel est votre prénom et nom ?"
+                  "Bonjour, vous êtes bien sur l'assistant de Marie Defays, infirmière indépendante. Je vais prendre votre message. En cas d&apos;urgence vitale, appelez le 112. Quel est votre prénom et nom ?"
                 </div>
               </div>
               <div className="flex gap-3 flex-row-reverse">
                 <div className="w-6 h-6 bg-slate-200 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold text-slate-500">P</div>
                 <div className="bg-white border border-slate-200 rounded-xl rounded-tr-none p-3 text-slate-700 flex-1 text-right">
-                  "Bonjour, c'est Marie Dupont d'Anderlecht."
+                  "Bonjour, c'est Marie Dupont d&apos;Anderlecht."
                 </div>
               </div>
               <div className="flex gap-3">
@@ -118,7 +118,7 @@ export default function Demo() {
               <div className="flex gap-3">
                 <div className="w-6 h-6 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold text-teal-700">A</div>
                 <div className="bg-teal-50 rounded-xl rounded-tl-none p-3 text-teal-800 flex-1">
-                  "Très bien, j'ai bien noté votre demande. Marie Defays vous rappellera dans les meilleurs délais. Bonne journée !"
+                  "Très bien, j&apos;ai bien noté votre demande. Marie Defays vous rappellera dans les meilleurs délais. Bonne journée !"
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@ export default function Demo() {
                 <span className="text-xs bg-green-100 text-green-600 px-2 py-0.5 rounded-full">Priorité : Moyenne</span>
               </div>
               <div className="bg-slate-50 rounded-lg p-4 text-sm space-y-1.5 font-mono text-slate-600">
-                <div><strong>De :</strong> Assist'Infirmière IA</div>
+                <div><strong>De :</strong> Assist&apos;Infirmière IA</div>
                 <div><strong>Objet :</strong> 📞 Nouvel appel — Priorité moyenne</div>
                 <div className="border-t border-slate-200 pt-3 mt-3 space-y-1">
                   <div><strong>Patient :</strong> {DEMO_APPEL.nom_appelant}</div>
@@ -155,7 +155,7 @@ export default function Demo() {
             {/* Fiche appel */}
             <div className="bg-white rounded-xl border border-slate-200 p-5">
               <div className="flex items-center justify-between mb-4">
-                <h2 className="font-semibold text-slate-800">Fiche d'appel</h2>
+                <h2 className="font-semibold text-slate-800">Fiche d&apos;appel</h2>
                 <div className="flex gap-2">
                   <span className="text-xs px-2.5 py-1 rounded-full font-medium badge-moyenne">🟡 Moyenne</span>
                   <span className="text-xs px-2.5 py-1 rounded-full font-medium badge-nouveau">Nouveau</span>
@@ -179,7 +179,7 @@ export default function Demo() {
 
             <div className="bg-amber-50 border border-amber-100 rounded-xl p-4 flex gap-3">
               <AlertTriangle className="w-5 h-5 text-amber-500 flex-shrink-0" />
-              <p className="text-amber-700 text-sm">Cet assistant ne pose aucun diagnostic et ne donne aucun conseil médical. En cas d'urgence vitale, le patient est invité à appeler le <strong>112</strong>.</p>
+              <p className="text-amber-700 text-sm">Cet assistant ne pose aucun diagnostic et ne donne aucun conseil médical. En cas d&apos;urgence vitale, le patient est invité à appeler le <strong>112</strong>.</p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-3">

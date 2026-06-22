@@ -23,7 +23,7 @@ export default function Layout() {
           <Stethoscope className="w-5 h-5 text-teal-700" />
         </div>
         <div>
-          <div className="text-white font-bold text-sm leading-tight">Assist'Infirmière IA</div>
+          <div className="text-white font-bold text-sm leading-tight">Assist&apos;Infirmière IA</div>
           <div className="text-teal-200 text-xs">Tableau de bord</div>
         </div>
       </div>
@@ -86,7 +86,7 @@ export default function Layout() {
           </button>
           <div className="flex items-center gap-2">
             <Stethoscope className="w-5 h-5 text-teal-700" />
-            <span className="font-semibold text-teal-800 text-sm">Assist'Infirmière IA</span>
+            <span className="font-semibold text-teal-800 text-sm">Assist&apos;Infirmière IA</span>
           </div>
           <div className="w-5" />
         </header>

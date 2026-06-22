@@ -63,7 +63,7 @@ export default function Register() {
 
           <div className="bg-amber-50 border border-amber-100 rounded-lg p-3 flex gap-2">
             <ShieldCheck className="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5" />
-            <p className="text-amber-700 text-xs">En cas d'urgence vitale, l'assistant rappelle toujours au patient d'appeler le 112. Cet outil ne donne aucun conseil médical.</p>
+            <p className="text-amber-700 text-xs">En cas d'urgence vitale, l'assistant rappelle toujours au patient d&apos;appeler le 112. Cet outil ne donne aucun conseil médical.</p>
           </div>
 
           <button type="submit" disabled={loading}

@@ -56,7 +56,7 @@ export default function Configuration() {
   return (
     <div className="max-w-2xl mx-auto">
       <div className="mb-6">
-        <h1 className="text-xl font-bold text-slate-800">Configuration de l'assistant</h1>
+        <h1 className="text-xl font-bold text-slate-800">Configuration de l&apos;assistant</h1>
         <p className="text-slate-500 text-sm mt-1">Personnalisez le comportement de votre assistant vocal</p>
       </div>
 
@@ -81,17 +81,17 @@ export default function Configuration() {
         <div className="bg-white rounded-xl border border-slate-200 p-5">
           <div className="flex items-center gap-2 mb-4">
             <Mic className="w-4 h-4 text-teal-700" />
-            <h2 className="font-semibold text-slate-800">Message d'accueil</h2>
+            <h2 className="font-semibold text-slate-800">Message d&apos;accueil</h2>
           </div>
           <div>
-            <label className="block text-sm font-medium text-slate-700 mb-1">Texte lu par l'assistant</label>
+            <label className="block text-sm font-medium text-slate-700 mb-1">Texte lu par l&apos;assistant</label>
             <textarea value={form.message_accueil_custom || ''} onChange={e => setForm({...form, message_accueil_custom: e.target.value})}
               rows={4}
               className="w-full border border-slate-200 rounded-lg px-3 py-2.5 text-sm focus:ring-2 focus:ring-teal-500 focus:border-teal-500 outline-none resize-none" />
-            <p className="text-xs text-slate-400 mt-1">Ce message sera lu à vos appelants quand l'assistant prend l'appel.</p>
+            <p className="text-xs text-slate-400 mt-1">Ce message sera lu à vos appelants quand l'assistant prend l&apos;appel.</p>
           </div>
           <div className="mt-3">
-            <label className="block text-sm font-medium text-slate-700 mb-1">Horaires d'activation</label>
+            <label className="block text-sm font-medium text-slate-700 mb-1">Horaires d&apos;activation</label>
             <input value={form.heures_disponibilite || ''} onChange={e => setForm({...form, heures_disponibilite: e.target.value})}
               className="w-full border border-slate-200 rounded-lg px-3 py-2.5 text-sm focus:ring-2 focus:ring-teal-500 outline-none"
               placeholder="Ex : Lundi–Vendredi 8h–18h" />

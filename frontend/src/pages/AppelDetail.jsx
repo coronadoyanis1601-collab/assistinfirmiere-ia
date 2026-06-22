@@ -85,7 +85,7 @@ export default function AppelDetail() {
 
       {/* Motif */}
       <div className="bg-white rounded-xl border border-slate-200 p-5 mb-4">
-        <h2 className="font-semibold text-slate-800 mb-3">Motif de l'appel</h2>
+        <h2 className="font-semibold text-slate-800 mb-3">Motif de l&apos;appel</h2>
         <p className="text-slate-600 text-sm">{appel.motif || 'Non renseigné'}</p>
       </div>
 
@@ -108,7 +108,7 @@ export default function AppelDetail() {
           <AlertTriangle className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" />
           <div>
             <div className="font-semibold text-red-700 text-sm">Message prioritaire signalé</div>
-            <div className="text-red-600 text-xs mt-1">Le patient a évoqué une situation potentiellement urgente. Rappeler en priorité. En cas d'urgence vitale : <strong>112</strong></div>
+            <div className="text-red-600 text-xs mt-1">Le patient a évoqué une situation potentiellement urgente. Rappeler en priorité. En cas d&apos;urgence vitale : <strong>112</strong></div>
           </div>
         </div>
       )}
@@ -154,7 +154,7 @@ export default function AppelDetail() {
 
       <div className="mt-4 bg-amber-50 border border-amber-100 rounded-xl p-3 flex gap-2">
         <AlertTriangle className="w-4 h-4 text-amber-500 flex-shrink-0 mt-0.5" />
-        <p className="text-amber-700 text-xs">Cet assistant n'évalue pas les situations médicales. Les résumés sont générés automatiquement à partir des informations données par le patient. En cas d'urgence vitale : <strong>112</strong>.</p>
+        <p className="text-amber-700 text-xs">Cet assistant n'évalue pas les situations médicales. Les résumés sont générés automatiquement à partir des informations données par le patient. En cas d&apos;urgence vitale : <strong>112</strong>.</p>
       </div>
     </div>
   );

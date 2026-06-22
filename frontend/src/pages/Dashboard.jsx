@@ -49,7 +49,7 @@ export default function Dashboard() {
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-xl font-bold text-slate-800">Bonjour, {user?.prenom} 👋</h1>
-          <p className="text-slate-500 text-sm mt-0.5">Voici l'état de vos appels aujourd'hui</p>
+          <p className="text-slate-500 text-sm mt-0.5">Voici l'état de vos appels aujourd&apos;hui</p>
         </div>
         <button onClick={loadStats} className="text-slate-400 hover:text-teal-700 transition-colors">
           <RefreshCw className={`w-5 h-5 ${loading ? 'animate-spin' : ''}`} />
@@ -78,7 +78,7 @@ export default function Dashboard() {
         ) : !stats?.derniers_appels?.length ? (
           <div className="p-8 text-center">
             <PhoneCall className="w-10 h-10 text-slate-200 mx-auto mb-3" />
-            <p className="text-slate-400 text-sm">Aucun appel reçu pour l'instant</p>
+            <p className="text-slate-400 text-sm">Aucun appel reçu pour l&apos;instant</p>
             <p className="text-slate-300 text-xs mt-1">Les appels de votre assistant apparaîtront ici</p>
           </div>
         ) : (
@@ -111,7 +111,7 @@ export default function Dashboard() {
       <div className="mt-6 bg-amber-50 border border-amber-100 rounded-xl p-4 flex gap-3">
         <AlertTriangle className="w-5 h-5 text-amber-500 flex-shrink-0 mt-0.5" />
         <div className="text-sm text-amber-800">
-          <strong>Rappel :</strong> Cet assistant prend uniquement des messages et génère des résumés. Il ne donne aucun conseil médical. En cas d'urgence vitale signalée, le patient est invité à appeler le <strong>112</strong>.
+          <strong>Rappel :</strong> Cet assistant prend uniquement des messages et génère des résumés. Il ne donne aucun conseil médical. En cas d&apos;urgence vitale signalée, le patient est invité à appeler le <strong>112</strong>.
         </div>
       </div>
     </div>

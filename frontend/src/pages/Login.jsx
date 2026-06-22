@@ -32,7 +32,7 @@ export default function Login() {
             <Stethoscope className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-xl font-bold text-slate-800">Connexion</h1>
-          <p className="text-slate-500 text-sm mt-1">Assist'Infirmière IA</p>
+          <p className="text-slate-500 text-sm mt-1">Assist&apos;Infirmière IA</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -61,10 +61,10 @@ export default function Login() {
         </form>
 
         <p className="text-center text-sm text-slate-500 mt-6">
-          Pas encore de compte ? <Link to="/register" className="text-teal-700 font-medium hover:underline">S'inscrire</Link>
+          Pas encore de compte ? <Link to="/register" className="text-teal-700 font-medium hover:underline">S&apos;inscrire</Link>
         </p>
         <p className="text-center text-sm mt-2">
-          <Link to="/" className="text-slate-400 hover:text-slate-600">← Retour à l'accueil</Link>
+          <Link to="/" className="text-slate-400 hover:text-slate-600">← Retour à l&apos;accueil</Link>
         </p>
       </div>
     </div>
